@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+html,body{
+    margin: 0;
+}
+body{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    background-color: beige;
+}
+h1,h2,h3{
+    text-align: center;
+    color: darkgreen;
+}
+.menu-container{
+    position: absolute;
+     top:-70px;
+    }
+.menu-item{
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.bg_video{
+    position: absolute;
+    width: 100%;
+    
+    top: 0;
+    left: 0;
+}
+.bg_1{
+    position:relative;
+    padding: 30px;
+}
+.wrapper{
+    position: relative;
+}
+.bg_2{
+    padding-top: 480px;
+}
+a{
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+   
+}
+li{
+    background-color: aliceblue;
+    
+    border-radius: 50%;
+   
+}
+footer{
+    font-size: 1rem;
+    color: darkgreen;
+    position: absolute;
+    top: 2220px;
+    left: 520px;
+}
+.art{
+    display: inline-block;
+    width: 48vw;
+    vertical-align: top;
+   
+}
+p{
+    text-align: justify;
+    margin: 30px;
+    font-size: 1.5rem;
+     color: darkgreen;
+}
+ @keyframes pic1 {
+            0%,100% {background-image: url("../img/Оленёк.png");}
+            25% {background-image:url("../img/Олени.png");}
+            50% {background-image:url("../img/голубика.png");}
+            75% {background-image: url("../img/Лена.png");}
+        }
+@keyframes pic2 {
+            0%,100% {background-image: url("../img/прижимы.png");}
+            25% {background-image:url("../img/Столбы.png");}
+            50% {background-image:url("../img/устье.png");}
+            75% {background-image: url("../img/олени.png");}
+        }
+.picture1{
+            position: absolute;
+            top: 1590px;
+            left: 30px;
+            width: 550px;
+            height: 320px;
+            animation: pic1 16s infinite -2s;
+            background: 50%/cover;
+        }
+.picture2{
+            position: absolute;
+            top: 1590px;
+            left: 650px;
+            width: 550px;
+            height: 320px;
+            animation: pic2 16s infinite;
+            background: 50%/cover;
+        }
+.art_{
+    position: absolute;
+    top: 1890px;
+}
+p:hover{
+   color: rgb(11, 107, 203);
+}
+.foto1{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 30px;
+    background: url(../img/1.JPG) 50%/cover;
+}
+.foto2{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 30px;
+    background: url(../img/2.JPG) 50%/cover;
+}
+.foto3{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 30px;
+    background: url(../img/3.JPG) 50%/cover;
+}
+.foto4{
+    width: 100vw;
+    height: 90vh;
+   margin-top: 30px;
+    background: url(../img/4.JPG) 50%/cover;
+}
+.end{
+    position: absolute;
+    top:3100px;
+}
